@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#grados {
+    width: 100px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    outline-color: blue;
+    transition: all 0.3s ease;
+}
+
+#grados:focus {
+    outline: none;
+    border: 2px solid #5472BA;
+    box-shadow: 0 0 10px #5472BA;
+}
+
+.container {
+    padding: 10px 0;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.resultado.error {
+    color: red;
+}
+
+.resultado.success {
+    color: green;
+}
